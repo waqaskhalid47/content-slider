@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="auto-play-controls">
+            <label for="autoplay-duration" class="auto-play-label">Auto-play duration (seconds): </label>
+            <input type="number" id="autoplay-duration" class="auto-play-duration" min="1" value="3">
+            <div>
+                <button id="start-autoplay" class="auto-play-btn">Start Auto-play</button>
+                <button id="stop-autoplay" class="auto-play-btn">Stop Auto-play</button>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slide">
+                <div class="review-container">
+                    <div class="review-text">
+                        <blockquote>I would like to express my deep thanks to you and
+                            your team for this outstanding work and
+                            support, | am really impressed with the total
+                            reform of my friends' CV. This is what | know
+                            about Bayt.com and | will keep recommending
+                            your services to my colleagues and friends
+                            Thanks</blockquote>
+
+                    </div>
+                    <div class="review-image">
+                        <img src="https://source.unsplash.com/random?landscape,mountain" alt="Client"
+                            class="circle-image">
+                    </div>
+                    <div class="review-text">
+                        <h3>Martin Steve</h3>
+                        <p>English Language Instructor at Arab Academy for
+                            Science, Technology and Maritime</p>
+                    </div>
+                    <div class="action">
+                        <a href="https://www.google.com/" class="button-link" target="_blank">View CV Sample</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="review-container">
+                    <div class="review-text">
+                        <blockquote>What a terrific job you have done on my CV..I
+                            nearly cried when | saw it and read it...
+                            Many, many thanks for the professional and
+                            fantastic work you have done sofar on my CV.</blockquote>
+                    </div>
+                    <div class="review-image">
+                        <img src="https://source.unsplash.com/random?landscape,cars" alt="Client" class="circle-image">
+                    </div>
+                    <div class="review-text">
+                        <h3>Martin Steve</h3>
+                        <p>Sector Specialist at Ministry of Education</p>
+                    </div>
+                    <div class="action">
+                        <a href="https://www.google.com/" class="button-link" target="_blank">View CV Sample</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="review-container">
+                    <div class="review-text">
+                        <blockquote>This is what | know
+                            about Bayt.com and | will keep recommending
+                            your services to my colleagues and friends.</blockquote>
+                    </div>
+                    <div class="review-image">
+                        <img src="https://source.unsplash.com/random?landscape,night" alt="Client" class="circle-image">
+                    </div>
+                    <div class="review-text">
+                        <h3>Martin Steve</h3>
+                        <p>Product Development. Ministry of Education.</p>
+                    </div>
+                    <div class="action">
+                        <a href="https://www.google.com/" class="button-link" target="_blank">View CV Sample</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+        </div>
+        <button class="btn btn-next"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+                <path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+            </svg></button>
+        <button class="btn btn-prev"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+                <path d="M15.293 3.293 6.586 12l8.707 8.707 1.414-1.414L9.414 12l7.293-7.293-1.414-1.414z" />
+            </svg></button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
